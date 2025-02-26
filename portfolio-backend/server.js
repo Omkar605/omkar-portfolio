@@ -5,8 +5,15 @@ const mongoose = require("mongoose");
 
 const app = express();
 app.use(express.json());
-app.use(cors());
-
+const allowedOrigins = ["https://my-portfolio-omega-eight-85.vercel.app"];
+app.use(
+  cors({
+    origin: allowedOrigins, // Allow only your frontend
+    methods: ["GET", "POST"], // Allowed HTTP methods
+    allowedHeaders: ["Content-Type"], // Allowed headers
+    credentials: true, // If using cookies or authentication
+  })
+);
 app.get("/", (req, res) => {
   res.send("Backend is running successfully!");
 });
