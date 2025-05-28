@@ -16,6 +16,7 @@ const Contact = () => {
       setStatus("Message sent successfully!");
     } catch (error) {
       setStatus("Error sending message.");
+      console.log(error);
     }
   };
 
