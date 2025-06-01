@@ -1,7 +1,7 @@
 
 const Resume = () => {
   return (
-    <div className="min-h-screen bg-gray-900 text-white p-8">
+    <div id="resume" className="min-h-screen bg-gray-900 text-white p-8">
       <h2 className="text-4xl font-bold mb-6">Resume</h2>
       <div className="bg-gray-800 p-6 rounded-xl shadow-lg text-center">
         <iframe

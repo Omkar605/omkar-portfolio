@@ -2,25 +2,25 @@ import { useState } from 'react';
 
 const allProjects = [
   {
-    title: "Recurring Payment Scheduler",
+    title: "Recurring Payment Scheduler - \"Pay-Timely\"",
     description: "Full-stack payment app using React, Node.js, MongoDB.",
     tags: ["React", "Node.js", "MongoDB"],
     link: "https://github.com/Omkar605/Pay-Timely",
     live: "https://pay-timely.vercel.app/"
   },
   {
-    title: "Spotify Clone",
-    description: "Music streaming app with playlists and search.",
+    title: "Tours And Travels",
+  description: "Full-stack travel booking app with React, Express, MongoDB.",
     tags: ["React", "Express", "MongoDB"],
-    link: "https://github.com/Omkar605/Spotify-Clone",
-    live: "https://spotify-clone-omkar605.vercel.app/"
+    link: "github.com/Omkar605/ToursAndTravels",
+    live: "https://tours-and-travels-nine.vercel.app/"
   },
   {
-    title: "Secure Banking Frontend",
-    description: "Resolved VAPT/security issues in banking modules.",
-    tags: ["React", "Security", "VAPT"],
-    link: "https://github.com/Omkar605/Banking-Security",
-    live: "https://banking-security-omkar605.vercel.app/"
+    title: "React Quiz App",
+    description: "Interactive quiz app built with React, featuring multiple-choice questions and score tracking.",
+    tags: ["React", "JavaScript", "CSS"],
+    link: "https://github.com/Omkar605/React-Quiz-App",
+    live: "https://react-quiz-app-omkar605.vercel.app/"
   }
 ];
 
@@ -34,7 +34,7 @@ const Projects = () => {
   );
 
   return (
-    <div className="min-h-screen p-8 bg-gray-900 text-white">
+    <div id="projects" className="min-h-screen p-8 bg-gray-900 text-white">
       <h2 className="text-4xl font-bold mb-6">Projects</h2>
       <input
         type="text"
