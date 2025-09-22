@@ -4,14 +4,14 @@ const allProjects = [
   {
     title: "Recurring Payment Scheduler - \"Pay-Timely\"",
     description: "Full-stack payment app using React, Node.js, MongoDB.",
-    tags: ["React", "Node.js", "MongoDB"],
+    tags: ["React", "Java", "Spring Boot", "PostgreSQL"],
     link: "https://github.com/Omkar605/Pay-Timely",
     live: "https://pay-timely.vercel.app/"
   },
   {
     title: "Tours And Travels",
   description: "Full-stack travel booking app with React, Express, MongoDB.",
-    tags: ["React", "Express", "MongoDB"],
+    tags: ["React", "Tailwind CSS"],
     link: "github.com/Omkar605/ToursAndTravels",
     live: "https://tours-and-travels-nine.vercel.app/"
   },
