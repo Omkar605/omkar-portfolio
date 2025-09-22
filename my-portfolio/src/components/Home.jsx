@@ -23,7 +23,7 @@ const Home = () => {
         animate={{ opacity: 1 }}
         transition={{ delay: 1 }}
       >
-        I build fast, secure, and scalable web apps using <span className="text-blue-400 font-medium">React</span>, <span className="text-green-400 font-medium">Node.js</span>, and <span className="text-yellow-400 font-medium">MongoDB</span>.
+        I build fast, secure, and scalable web apps using <span className="text-blue-400 font-medium">React</span>, <span className="text-green-400 font-medium">Java</span>,<span className="text-green-400 font-medium"> Spring Boot</span>, and <span className="text-yellow-400 font-medium">PostgreSQL</span>.
       </motion.p>
 
       <motion.div
