@@ -20,7 +20,7 @@ const allProjects = [
     description: "Interactive quiz app built with React, featuring multiple-choice questions and score tracking.",
     tags: ["React", "JavaScript", "CSS"],
     link: "https://github.com/Omkar605/React-Quiz-App",
-    live: "https://react-quiz-app-omkar605.vercel.app/"
+    live: "https://quiz-application-mu-one.vercel.app/"
   }
 ];
 
